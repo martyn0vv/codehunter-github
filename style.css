@@ -1,0 +1,46 @@
+/* dark background, light text and some room around everything */
+body {
+    background-color: #0d1117;
+    color: #e6edf3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+/* make the title big and blue */
+h1 {
+    color: #58a6ff;
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+/* make the search box look like it belongs here */
+#Input {
+    background-color: #161b22;
+    color: white;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* green button. the little hand means click me */
+#Button {
+    background-color: #238636;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+/* repo boxes, if i ever remember to add this class in js. decoration on standby */
+.repo-card {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+}
+/* blue border on hover, once the class actually gets used */
+.repo-card:hover {
+    border-color: #58a6ff;
+}
